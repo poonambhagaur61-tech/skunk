@@ -358,7 +358,7 @@
             otherHeader.classList.remove("active", "table-header-asc", "table-header-desc");
           });
 
-          header.classList.add("active", ascending ? "table-header-asc" : "table-header-desc");
+          header.classList.add(ascending ? "table-header-asc" : "table-header-desc");
 
           rows
             .sort((rowA, rowB) => compareRows(rowA, rowB, columnIndex, ascending))
