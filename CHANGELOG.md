@@ -1,4 +1,9 @@
 # Changelog
+## main [(unreleased)](https://github.com/fastruby/skunk/compare/v0.5.4...HEAD)
+
+* [FEATURE: Add sortable columns to the Skunk HTML report](https://github.com/fastruby/skunk/pull/142)
+* [ENHANCEMENT: Support SimpleCov 1.0](https://github.com/fastruby/skunk/pull/140)
+* BUGFIX: Pin path_expander < 2.0 for Ruby 2.7 compatibility
 
 All notable changes to this project will be documented in this file.
 
