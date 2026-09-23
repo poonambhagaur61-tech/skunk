@@ -355,7 +355,7 @@
           const rows = Array.from(tbody.querySelectorAll(".table-row"));
 
           headers.forEach((otherHeader) => {
-            otherHeader.classList.remove("active", "table-header-asc", "table-header-desc");
+            otherHeader.classList.remove("table-header-asc", "table-header-desc");
           });
 
           header.classList.add(ascending ? "table-header-asc" : "table-header-desc");
